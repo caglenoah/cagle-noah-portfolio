@@ -1,6 +1,19 @@
+NOTES
+
+---
+
+ADD A HIRE ME SECTION
+-INCLUDE ICONS THAT LINK TO MY UP FOR WORK
+-CREATE AND ADD A FIVER ICON
+
 Console Commands/Dependencies/Resources
 
+---
+
 Commands
+
+---
+
 Create project
 npx create-next-app@latest --ts cagle-noah-portfolio
 Install process
@@ -9,7 +22,11 @@ Install process
 ✔ Would you like to use `src/` directory? … -No- / Yes
 ✔ Would you like to use App Router? (recommended) … -No- / Yes
 ✔ Would you like to customize the default import alias (@/\*)? … -No- / Yes
+
 Dependencies
+
+---
+
 Tailwindcss  
 npm install -D tailwindcss
 npx tailwindcss init
@@ -28,7 +45,13 @@ npm i @heroicons/react
 React Hook Forms
 npm install react-hook-form
 Resources
+
+---
+
 Documentation
+
+---
+
 -Tailwindcss
 https://tailwindcss.com/
 
@@ -44,7 +67,14 @@ https://www.npmjs.com/package/react-social-icons
 -React Hook Forms
 https://www.npmjs.com/package/react-hook-form
 https://react-hook-form.com/
+
+Other
+Using next/image
+https://nextjs.org/docs/messages/next-image-upgrade-to-13
+
 Videos
+
+---
 
 Sonny Sangha
 -Portfolio Template and Dependencies
