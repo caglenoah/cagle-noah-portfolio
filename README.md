@@ -1,41 +1,57 @@
-Console Commands/Dependencies
+Console Commands/Dependencies/Resources
 
 Commands
 Create project
 npx create-next-app@latest --ts cagle-noah-portfolio
 Install process
-✔ Would you like to use ESLint? … No / Yes
-✔ Would you like to use Tailwind CSS? … No / Yes
-✔ Would you like to use `src/` directory? … No / Yes
-✔ Would you like to use App Router? (recommended) … No / Yes
-✔ Would you like to customize the default import alias (@/\*)? … No / Yes
-Creating a new Next.js app in /Users/noah/Desktop/finalPort/cagle-noah-portfolio.
-
+✔ Would you like to use ESLint? … -NO- / Yes
+✔ Would you like to use Tailwind CSS? … No / -Yes-
+✔ Would you like to use `src/` directory? … -No- / Yes
+✔ Would you like to use App Router? (recommended) … -No- / Yes
+✔ Would you like to customize the default import alias (@/\*)? … -No- / Yes
 Dependencies
-Tailwindcss
-
+Tailwindcss  
 npm install -D tailwindcss
 npx tailwindcss init
+
 npm install -D tailwindcss postcss autoprefixer
 npx tailwindcss init -p
-
 React Social Icons
-
 npm install react-social-icons
-
 Framer Motion
-
 npm install framer-motion
 
 React Simple Typewriter
 npm i react-simple-typewriter
-
 Hero Icons
 npm i @heroicons/react
-
 React Hook Forms
-
 npm install react-hook-form
+Resources
+Documentation
+-Tailwindcss
+https://tailwindcss.com/
+
+-Framer Motion
+https://www.framer.com/motion/
+
+-React Simple Typewriter
+https://www.npmjs.com/package/react-simple-typewriter
+
+-React Social Icons
+https://www.npmjs.com/package/react-social-icons
+
+-React Hook Forms
+https://www.npmjs.com/package/react-hook-form
+https://react-hook-form.com/
+Videos
+
+Sonny Sangha
+-Portfolio Template and Dependencies
+https://www.youtube.com/watch?v=urgi2iz9P6U&t=1482s
+
+-Effective Image Rendering
+https://www.youtube.com/watch?v=2U7yZ3wvFBM
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
