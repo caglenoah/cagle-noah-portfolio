@@ -1,3 +1,42 @@
+Console Commands/Dependencies
+
+Commands
+Create project
+npx create-next-app@latest --ts cagle-noah-portfolio
+Install process
+✔ Would you like to use ESLint? … No / Yes
+✔ Would you like to use Tailwind CSS? … No / Yes
+✔ Would you like to use `src/` directory? … No / Yes
+✔ Would you like to use App Router? (recommended) … No / Yes
+✔ Would you like to customize the default import alias (@/\*)? … No / Yes
+Creating a new Next.js app in /Users/noah/Desktop/finalPort/cagle-noah-portfolio.
+
+Dependencies
+Tailwindcss
+
+npm install -D tailwindcss
+npx tailwindcss init
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+
+React Social Icons
+
+npm install react-social-icons
+
+Framer Motion
+
+npm install framer-motion
+
+React Simple Typewriter
+npm i react-simple-typewriter
+
+Hero Icons
+npm i @heroicons/react
+
+React Hook Forms
+
+npm install react-hook-form
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
