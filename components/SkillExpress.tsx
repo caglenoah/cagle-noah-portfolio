@@ -21,7 +21,7 @@ function SkillExpress({ directionLeft }: Props) {
         <Image
           src={ExpressImage}
           alt="Express.js logo"
-          className="rounded-full border border-black object-cover w-24 h-24
+          className="rounded-full border border-black object-fit w-24 h-24
         md:w-28 md:h-28 xl:w-32 xl:h-32 filter group-hover:grayscale transition
         duration-300 ease-in-out"
         />

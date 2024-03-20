@@ -17,14 +17,11 @@ function SkillGoogleCloud({ directionLeft }: Props) {
         }}
         transition={{ duration: 1 }}
         whileInView={{ opacity: 1, x: 0 }}
-        className="rounded-full border border-black object-cover w-24 h-24
-        md:w-28 md:h-28 xl:w-32 xl:h-32 filter group-hover:grayscale transition
-        duration-300 ease-in-out"
       >
         <Image
           src={GoogleCloudImage}
           alt="googlecloudImage"
-          className="rounded-full border border-black object-cover w-24 h-24
+          className="rounded-full border border-black object-fit w-24 h-24
         md:w-28 md:h-28 xl:w-32 xl:h-32 filter group-hover:grayscale transition
         duration-300 ease-in-out"
         />
