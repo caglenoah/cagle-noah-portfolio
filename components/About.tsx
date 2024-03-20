@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
-
+import AboutImage from "../images/AboutImage.JPG";
 type Props = {};
 
 export default function About({}: Props) {
@@ -14,7 +14,7 @@ export default function About({}: Props) {
         About
       </h3>
 
-      <motion.img
+      <motion.div
         initial={{
           x: -200,
           opacity: 0,
@@ -24,9 +24,10 @@ export default function About({}: Props) {
         }}
         whileInView={{ opacity: 1, x: 0 }}
         viewport={{ once: true }}
-        src="https://lh3.googleusercontent.com/pw/AP1GczP1uABDa-AiJI_rVGWYA5ZrZv65G5ZWbPzrcC2amOYAYzDg3OCPUOIVhCTqJ51IaXGNJbfS-1unUsZiV-UX7t0ys5Xi0jzlU6GmCtkpOcja_5OEBnRk8Ck7rp7AWkd2NPZ_qe-BB4VK_JIvnfkg_h5-ObNTWw9JJvdYXV52M1thjo_EJc-IWWI_cWtwT6RXPqGzoucHoqeoFAlfUSbs713kA2VjbeGttrhEtLKlkuj1dNL_svHZcTo8HcltF_zcFwleWG6fdzGBxmpegm89LcidwNlKu_Tbngv-zPEpkSmoCN69nOWdOwsSZZiv_IdOA3dSH_fs9iH5ZGCd1-PTm21u-INeM4ceqSZ5ZjsiFgkYSTsl92aqC5UozlmTMEFON-KME4Z5r0JVXwUuoPlmiWeSbRfSDlmwmuoVIgGyHBHhTWz5Y8_iZSgX1x5vU3cH592drM4Qt5HT9x90pZ_fWTPHn65cdGPELGFcP1XSQ3XF-kD2PtCxivzW5AX0dX0vxG3WnRiU_002Z973FXSk7-8zYCoDwOIpILnIFStpc1PN9xHCjt01YpWwqq0OIcrV6ISW6kHnkIpCgmlflNJBJlTdbv-49bLAHcP-xjPQ3QoBGnlzLk-jAEmHbE7hoMNRuq1r9YccSux72y7yEr-BWpZUF1I5Iq-K6olz3QCHfx35xcCm5tPD3B90RIwFGl29W9FhIge9fiK_SGYcTcQhpCqjvSlC4D10A8g-WGQJo1ZuO-qAaI-xBzB9bs5MbxaTYr88v_Da6kvA_SGtkJ3DpwCdV33M5DJg22rXjsVOFobJDQyhF5bUMSAV7xMqDR9vAgUQAJE7-JG3InlYxpaQwTobOjYFZ3xUPkvABwdwu7KHn3xoJWz-qo1515TymdEyg9NnDm-rUm3JskF94uiKZXA=w1598-h1010-s-no-gm?authuser=0"
         className="-mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-64 md:h-96 xl:w-[400px] xl:h-[400px]"
-      />
+      >
+        <Image src={AboutImage} alt="about image" />
+      </motion.div>
 
       <div className="space-y-10 px-0 md:px-10 pt-4 md:pt-4">
         <h4 className="text-4xl font-semibold">
@@ -35,11 +36,21 @@ export default function About({}: Props) {
           background
         </h4>
         <p className="text-sm">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque
-          reprehenderit ea molestias eaque veniam repellat iure deserunt qui
-          quibusdam, dolor assumenda, eos non nam atque eius totam enim
-          repellendus velit. Lorem ipsum dolor sit, amet consectetur adipisicing
-          elit. Nam recusandae ratione illum tenetur ipsam pariatur possimus
+          As a graduate of the Austin Coding Academy with a Full Stack Software
+          Engineering certification, I offer a unique blend of technical
+          experience and a rich background in leadership, problem-solving, and
+          adventure. I can help your business or project grow using my ability
+          to thrive in challenging environments and my technical knowledge and
+          expertise. If you are not looking for that set of skills, I am happy
+          to teach you, or manage website design systems such as Canva. Building
+          your website, setting up scheduling systems, and adding payment forms
+          in a way you can learn easily. My work always prioritizes effective
+          communication, creative problem-solving, and a commitment to achieving
+          YOUR goal. I am an avid whitewater kayaker, extreme snowboarder, and
+          now a full-stack software engineer with a fire to share the mindset my
+          experiences have forged. With an intrinsic need to overcome
+          challenges, I am passionate about helping people find success in their
+          endeavors through coding. I will give you 110% in all that I do.
         </p>
       </div>
     </div>
