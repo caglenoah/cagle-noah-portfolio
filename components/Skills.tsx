@@ -5,7 +5,13 @@ import SkillReact from "./SkillReact";
 import SkillNext from "./SkillNext";
 import SkillGoogleCloud from "./SkillGoogleCloud";
 import SkillExpress from "./SkillExpress";
-
+import SkillTypeScript from "./SkillTypeScript";
+import SkillNode from "./SkillNode";
+import SkillTailwindcss from "./SkillTailwindcss";
+import SkillMySQL from "./SkillMySQL";
+import SkillAws from "./SkillAws";
+import SkillGitHub from "./SkillGitHub";
+import SkillRestream from "./SkillRestream";
 type Props = {};
 
 function Skills({}: Props) {
@@ -31,6 +37,13 @@ function Skills({}: Props) {
         <SkillNext />
         <SkillGoogleCloud />
         <SkillExpress />
+        <SkillTypeScript />
+        <SkillNode />
+        <SkillTailwindcss />
+        <SkillMySQL />
+        <SkillAws />
+        <SkillGitHub />
+        <SkillRestream />
       </div>
     </motion.div>
   );

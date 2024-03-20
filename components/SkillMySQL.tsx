@@ -1,13 +1,13 @@
 import React from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import JavaScriptImage from "../images/JavaScriptImage.png";
+import MySqlImage from "../images/MySqlImage.png";
 
 type Props = {
   directionLeft?: boolean;
 };
 
-function SkillJs({ directionLeft }: Props) {
+function SkillMySQL({ directionLeft }: Props) {
   return (
     <div className="group relative flex cursor-pointer">
       <motion.div
@@ -17,11 +17,14 @@ function SkillJs({ directionLeft }: Props) {
         }}
         transition={{ duration: 1 }}
         whileInView={{ opacity: 1, x: 0 }}
-        className="rounded-full border border-black object-fit w-24 h-24
+      >
+        <Image
+          src={MySqlImage}
+          alt="typescript logo"
+          className="rounded-full border border-black object-fit w-24 h-24
         md:w-28 md:h-28 xl:w-32 xl:h-32 filter group-hover:grayscale transition
         duration-300 ease-in-out"
-      >
-        <Image id="JSImage" src={JavaScriptImage} alt="javascript" />
+        />
       </motion.div>
 
       <div className="absolute opacity-0 group-hover:opacity-80 transition duration-300 ease-in-out group-hover:bg-white h-24 w-24 md:w-28 md:h-28 xl:w-32 xl:h-32 rounded-full z-0">
@@ -33,4 +36,4 @@ function SkillJs({ directionLeft }: Props) {
   );
 }
 
-export default SkillJs;
+export default SkillMySQL;
