@@ -1,6 +1,11 @@
 import React from "react";
 import { motion } from "framer-motion";
-import Skill from "./Skill";
+import SkillJs from "./SkillJs";
+import SkillReact from "./SkillReact";
+import SkillNext from "./SkillNext";
+import SkillGoogleCloud from "./SkillGoogleCloud";
+import SkillExpress from "./SkillExpress";
+
 type Props = {};
 
 function Skills({}: Props) {
@@ -21,18 +26,11 @@ function Skills({}: Props) {
       </h3>
 
       <div className="grid grid-cols-4 gap-5">
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
+        <SkillJs />
+        <SkillReact />
+        <SkillNext />
+        <SkillGoogleCloud />
+        <SkillExpress />
       </div>
     </motion.div>
   );
