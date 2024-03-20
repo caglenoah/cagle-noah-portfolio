@@ -18,34 +18,34 @@ function ContactMe({}: Props) {
     const body = encodeURIComponent(
       `Hi, my name is ${formData.name}. ${formData.message}`
     );
-    window.location.href = `mailto:myemail.gmail.com?subject=${formData.subject}&body=${body}`;
+    window.location.href = `mailto:caglenoah@gmail.com?subject=${formData.subject}&body=${body}`;
   };
   return (
     <div className="h-screen flex relative flex-col text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center">
-      <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">
+      <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl ">
         Contact
       </h3>
 
-      <div className="flex flex-col space-y-10">
+      <div className="flex flex-col space-y-10 pt-20">
         <h4 className="text-4xl font-semibold text-center">
-          I got just what you need babay{" "}
-          <span className="decoration-[#02bcea]/50 underline">Himme up</span>
+          Set up an interview, inquire about{" "}
+          <span>tutoring and freelance work</span>
         </h4>
 
         <div className="smapce-y-10">
           <div className="flex items-center space-x-5 justify-center">
-            <PhoneIcon className="text-[#02bcea] h-7 w--7 animate-pulse" />
-            <p className="text-2xl">phoneNumber</p>
+            <PhoneIcon className="text-[#ffe44c] h-7 w--7 animate-pulse" />
+            <p className="text-2xl">(720)-556-1514</p>
           </div>
 
           <div className="flex items-center space-x5 justify-center">
-            <MapPinIcon className="text-[#02bcea] h-7 w--7 animate-pulse" />
-            <p className="text-2xl">Yo mommas house</p>
+            <MapPinIcon className="text-[#ffe44c] h-7 w--7 animate-pulse" />
+            <p className="text-2xl">Arvada, Colorado</p>
           </div>
 
           <div className="flex items-center space-x5 justify-center">
-            <EnvelopeIcon className="text-[#02bcea] h-7 w--7 animate-pulse" />
-            <p className="text-2xl">myemailgmail.com</p>
+            <EnvelopeIcon className="text-[#ffe44c] h-7 w--7 animate-pulse" />
+            <p className="text-2xl">caglenoah@gmail.com</p>
           </div>
         </div>
 

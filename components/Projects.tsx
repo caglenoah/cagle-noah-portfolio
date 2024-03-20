@@ -36,7 +36,7 @@ function Projects({}: Props) {
                 <span className="underline decoration-white/50">
                   Case Study {i + 1} of {projects.length}:
                 </span>{" "}
-                Project Name
+                Coming Soon!
               </h4>
               <p className="text-lg text-center md:text-left">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
